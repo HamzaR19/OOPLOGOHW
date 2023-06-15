@@ -2,7 +2,7 @@
 
 const inquirer = require('inquirer');
 const fs = require('fs');
-const { Square, Triangle, Circle } = require("./shapes");
+const { Square, Triangle, Circle } = require("./shapes.js");
 
 inquirer
     .prompt([
@@ -36,6 +36,9 @@ inquirer
     ])
 
     
-.then
+.then((res) => {
+    console.log(res);
+    fs.writeFile
+})
 
  
