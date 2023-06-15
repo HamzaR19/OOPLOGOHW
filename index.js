@@ -5,6 +5,27 @@ const fs = require('fs');
 const { Square, Triangle, Circle } = require("./lib/shapes.js");
 
 
+var svgString ="";
+
+const res = await inquirer.prompt
+
+
+class Svg{
+    constructor(){
+        this.textE
+    }
+
+
+}
+
+
+
+function writeToFile(fileName,res){
+
+    let
+}
+
+
 
 inquirer.prompt([
       {
