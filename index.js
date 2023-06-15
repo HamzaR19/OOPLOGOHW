@@ -2,10 +2,11 @@
 
 const inquirer = require('inquirer');
 const fs = require('fs');
-const { Square, Triangle, Circle } = require("./shapes.js");
+const { Square, Triangle, Circle } = require("./lib/shapes.js");
 
-inquirer
-    .prompt([
+
+
+inquirer.prompt([
       {
         type: "input",
         message:
@@ -36,9 +37,16 @@ inquirer
     ])
 
     
-.then((res) => {
-    console.log(res);
-    fs.writeFile
-})
-
+    .then((res) => {
+        if (res.text.length > 3) {
+            console.log("Must enter a value of no more than 3 characters");
+            prompt();
+        } else {
+            writeToFile("logo.svg", res);
+        }
+        
+        
+    })
+    
+    prompt();
  
