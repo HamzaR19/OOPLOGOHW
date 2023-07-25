@@ -28,7 +28,9 @@ Application to create a custom Logo
 
 ## Installation
 
-node index.js
+*Node.js
+*Inquirer 8.2.4
+*Jest
 
 ## Usage Information
 
