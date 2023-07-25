@@ -14,6 +14,8 @@ Hamza Rahman's README
 
  * [Contribution-Guidelines](#contribution-guidelines)
 
+ * [Media](#Media)
+
  * [Test-Instructions](#test-instructions)
 
  * [License](#license)
@@ -36,9 +38,12 @@ Run the application using node index.js. Follow the prompts and enjoy your own c
 
 Hamza Rahman
 
+## Media
+
+
 ## Test Instructions
 
-I ran some tests and passed most of them.
+To run tests, you need to open up the terminal in vscode and input "npm run test" script. I ran some tests and passed most of them.
 
 ## License
 
