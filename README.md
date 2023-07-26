@@ -28,9 +28,9 @@ This is an application to create a custom SVG Logo!
 
 ## Installation
 
-*Node.js
-*Inquirer 8.2.4
-*Jest
+* Node.js
+* Inquirer 8.2.4
+* Jest
 
 ## Usage Information
 
