@@ -24,7 +24,7 @@ Hamza Rahman's README
 
 ## Description
 
-Application to create a custom Logo
+This is an application to create a custom SVG Logo!
 
 ## Installation
 
@@ -41,7 +41,7 @@ Run the application using node index.js. Follow the prompts and enjoy your own c
 Hamza Rahman
 
 ## Media
-
+[Link to Video](https://www.youtube.com/watch?v=Zv5BjwFtDfg)
 
 ## Test Instructions
 
